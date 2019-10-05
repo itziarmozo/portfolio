@@ -5,8 +5,9 @@ window.onload = () => {
   var prevScrollpos = window.pageYOffset;
   window.onscroll = function() {
     var currentScrollPos = window.pageYOffset;
-    if(prevScrollpos == undefined) prevScrollpos = 1
-    if (prevScrollpos > currentScrollPos) {
+    // if(prevScrollpos == undefined) prevScrollpos = 1
+
+    if (prevScrollpos >= currentScrollPos) {
       document.querySelector(".nav_cabecera").style.top = "0";
     } else {
       document.querySelector(".nav_cabecera").style.top = "-85px";
