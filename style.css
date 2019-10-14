@@ -1167,10 +1167,16 @@ h4{
 
          h1{
             margin-bottom: 10px;
+            font-size: 35px;
          }
 
          .line-h1{
             bottom:10px;
+            width: 300px;
+         }
+
+         h2{
+            font-size: 22px;
          }
 
          .menu{
