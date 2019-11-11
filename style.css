@@ -239,6 +239,77 @@ h4{
     padding: 150px 220px 0px;
 }
 
+
+.work-impasse{
+   width: 100%;
+   display:flex;
+   position: relative;
+   margin-bottom: 20%;
+}
+
+#link-impasse{
+   display: flex;
+   flex-direction: row;
+   justify-content: space-between; 
+}
+
+#img-impasse{
+ width: 50%;
+
+}
+
+#text-impasse{
+   width: 50%;
+   display: flex;
+   flex-direction: column;
+   align-items: flex-end;
+}
+
+#titulo-type-impasse{
+   font-size: 28px;
+    margin-bottom:24px;
+    line-height: 28px;
+    text-align: end;
+    margin-right: 20px;
+}
+
+#tag-type-impasse{
+   color: #9A028A;
+   font-size: 12px;
+   margin-bottom:8px;
+   margin-right: 20px;
+}
+
+
+#tools-type-impasse{
+   font-weight: 100;
+   font-size: 14px;
+   margin-top: 8%;
+   margin-right: 20px;
+
+}
+
+#boxtext-impasse{
+   color: white;
+   font-weight: 500;
+   font-size: 16px;
+   line-height: 21px;
+   font-weight: 100;
+   text-align: end;
+
+   padding: 18px 18px;
+   border-radius: 6px;
+   box-shadow: rgba(2, 12, 27, 0.7) 0px 10px 30px -15px;
+   background-color: #2D2D2D;
+}
+
+#tools-type-impasse{
+   font-weight: 100;
+   font-size: 14px;
+   margin-top: 8%;
+   margin-right: 20px;
+}
+
 .work-pml{
     width: 100%;
     display:flex;
