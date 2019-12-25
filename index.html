@@ -7,8 +7,9 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Itziar Mozo Chica Portfolio</title>
     <link rel="stylesheet" href="reset.css">
-    <link href="https://fonts.googleapis.com/css?family=Nunito:200,400&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,500,700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="responsive.css">
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
 
@@ -16,17 +17,14 @@
 
     <header id="top">
         <nav class="nav_cabecera" >
-                <div class="box" href="#presentacion">
-                    <a class="logotipoBox">                     
-                        <img class="logotipo" src="images/1_logo_Itziar.png" alt="Logotipo Itziar mozo"
-                        title="Logotipo Itziar Mozo">
-                    </a>
-                </div>
+                <a class="logotipo" href="#presentacion" alt="Logotipo Itziar mozo">  
+                        <p class="YO"> Itziar Mozo </p>
+                </a>
 
                 <ul class="menu" > 
-                    <li> <a href="#portfolio">PORTFOLIO</a></li>
-                    <li> <a href="#ponmecara">ABOUT ME</a></li>
-                    <li> <a href="Itziar Mozo_CV.pdf" target="_blank">CV</a></li>
+                    <li> <a href="#portfolio" class="button-menu">PORTFOLIO</a></li>
+                    <li> <a href="#ponmecara" class="button-menu">SOBRE MI</a></li>
+                    <li> <a href="mailto:itziarmozo@gmail.com" class="button-menu-contact" > CONTACTAR</a></li>
                 </ul>
 
         </nav>
@@ -38,22 +36,22 @@
                         <nav class="redes">
         
                             <a  href="https://medium.com/@itziarmozochica" target="_blank">
-                                <div class="bottom-circle"> <img class="icon" src="images/logo1_medium.svg"
+                                <div class="buttom-circle"> <img class="icon" src="images/logo1_medium.svg"
                                         alt="EnlaceMediumItziar" title="Medium_Itziar"></div>
                             </a>
         
                             <a  href="https://www.behance.net/ItziarMChica" target="_blank">
-                                <div class="bottom-circle"><img class="icon" src="images/logo2_behance.svg"
+                                <div class="buttom-circle"><img class="icon" src="images/logo2_behance.svg"
                                         alt="EnlaceBehanceItziar" title="Behance_Itziar"></div>
                             </a>
         
                             <a href="https://www.linkedin.com/in/itziarmozochica//" target="_blank">
-                                <div class="bottom-circle"><img class="icon" src="images/logo3_linkedin.svg"
+                                <div class="buttom-circle"><img class="icon" src="images/logo3_linkedin.svg"
                                         alt="EnlaceLinkedinItziar"></div>
                             </a>
         
                             <a href="https://www.domestika.org/es/itziarmc" target="_blank">
-                                <div class="bottom-circle"><img class="icon" src="images/logo4_domestika.svg"
+                                <div class="buttom-circle"><img class="icon" src="images/logo4_domestika.svg"
                                         alt="EnlaceDomestikaItziar"></div>
                             </a>
 
@@ -61,38 +59,41 @@
                         <div class="line"></div>
                     </aside>
         
-                    <div data-aos="zoom-in-right" class="bloque-presentacion">
-                        <p class="tag">Hola, mi nombre es</p>
+                    <div class="bloque-presentacion">
                         <div class="titulo-h1">
                             <div class="line-h1"></div>
                             <h1 id="presentacion">Itziar Mozo Chica</h1>
                         </div>
-                        <h2>UX|UI & Product designer</h2>
-                        <p class="intro">Diseñadora UX/UI, publicista, emprendedora y, por definición, multidisciplinar. Siento
-                            gran curiosidad por la psicología del consumidor y el impacto visual que esta tiene en los negocios.
+                        <h2>UX|UI DESIGNER & ART DIRECTOR</h2>
+                        <p class="intro"> Tengo cuatro años de experiencia en departamentos creativos, 
+                            conceptualización y creación de estrategias digitales. Además siento
+                            gran curiosidad por la psicología del consumidor y su impacto 
+                            en los negocios lo que me ha llevado a seguirme formando hacia la
+                            especialización en productos digitales. 
                         </p>
         
                         <a href="mailto:itziarmozo@gmail.com">
                             <div class="contact-button">
-                                <p class="texto-p"> Contactar </p>
+                                <p class="texto-p"> CONTACTAR </p>
                             </div>
                         </a>
                     </div>
         </section>
 
+
         <section class="metho-container">
             <div class="container">
                 <img class="icon2" src="images/icons/atras.png" alt="icono_design_thinking">
-                <h4>Design Thinking Methodology</h4>
-                <p class="texto-h4">Iterar, iterar e iterar. Se trata de empatizar 
+                <h4>Design Thinking Method</h4>
+                <p class="texto-h4" id="ocultar" >Iterar, iterar e iterar. Se trata de empatizar 
                     con el usuario y generar soluciones creativas
                     y tecnológicamente viables.</p>
             </div>
 
-            <div class="container">
+            <div class="container" >
                 <img class="icon2" src="images/icons/play.png" alt="icono_user_centered_design">
                 <h4>User Centered Design</h4>
-                <p class="texto-h4">“No comos nuestros propios consumidores” 
+                <p class="texto-h4" id="ocultar">“No comos nuestros propios consumidores” 
                     Se está ante un diseño que no busca tanto la belleza
                     como la accesibilidad y utilidad. </p>
             </div>
@@ -100,7 +101,7 @@
             <div class="container">
                 <img class="icon2" src="images/icons/adelante.png" alt="icono_lean_ux_strategy">
                 <h4 id="Lean-h4">Lean UX Strategy</h4>
-                <p class="texto-h4">Hablar de Lean UX es hablar de colaboración 
+                <p class="texto-h4" id="ocultar">Hablar de Lean UX es hablar de colaboración 
                     y ahorro de recursos. De abrirse a saber de todo
                     y salir de los roles estándar.</p>
             </div>
@@ -111,7 +112,7 @@
 
             <div class="container-portfolio">
                  
-                <article data-aos="fade-up-left"
+                <article data-aos="fade-up"
                 data-aos-duration="1000">
                     <div class="work-impasse">
 
@@ -121,7 +122,7 @@
                                 <p id="tag-type-impasse">UX Research & Visual design </p>
                                 <p id="titulo-type-impasse">Impasse | De cómo aprender a cuidar nuestro planeta</p> 
                                 <p id="boxtext-impasse"> Un 88% de encuestados aseguran convencidos estar reduciendo su huella de carbono, pero solo una mínima parte sabe realmente
-                                    qué formas existen de cuidar el planeta. Y el reciclaje no es uno de ellas. </p>
+                                    qué formas existen de cuidar el planeta. Y el reciclaje no es una de ellas. </p>
                                 <p id="tools-type-impasse"> Sketch| Principle | UX Research| Moodboard </p>   
                             </div>
                         </a>
@@ -130,7 +131,7 @@
                 </article>
 
 
-                <article data-aos="fade-up-right"
+                <article data-aos="fade-up"
                 data-aos-duration="1000">
                     <div class="work-pml">  
 
@@ -139,18 +140,15 @@
                             <div id="text-pml">
                                 <p id="tag-type"> UX Research & Redesign</p>
                                 <p id="titulo-type">Pinta Malasaña 2020 | Festival de arte urbano</p>
+                                <p id="boxtext-pml">Microsite para la quinta edición del festival madrileño
+                                        donde se integra la participación través de la web para generar mayor notoriedad de marca</p>  
                                 <p id="tools-type">Heuristic evaluation | Sketch | Principle</p>
                             </div>
-                        </a> 
-
-                    </div>
-                    <p id="boxtext-pml">Microsite para la quinta edición del festival madrileño
-                         donde se integra la participación través de la web para generar mayor notoriedad de marca
-                    </p>          
+                        </a>        
                 </article>  
 
             
-                <article data-aos="fade-up-left"
+                <article data-aos="fade-up"
                 data-aos-duration="1000">
                     <div class="work-blonet">
 
@@ -169,29 +167,30 @@
                 </article>
     
 
-                <article data-aos="fade-up-right"
+                <article data-aos="fade-up"
                 data-aos-duration="1000">
                         <div class="work-netflix">  
     
                              <a id="link-pml" href="https://medium.com/@itziarmchica/el-caso-netflix-pago-fraccionado-95ee9eab7305" alt="mockup_web_pintamalasana" target="_blank">
-                                <img id="img-pml"  src="images/netflix.png" alt="imagen_pinta">
+                                <img id="img-netflix" src="images/netflix.png" alt="imagen_pinta">
                                 <div id="text-netflix">
-                                    <p id="tag-type">UX/UI Feature Project</p>
+                                    <p id="tag-type-netflix">UX/UI Feature Project</p>
                                     <p id="titulo-type">El caso Netflix: Pago fraccionado</p>
+                                    <p id="boxtext-netflix">Adaptación del modo de pago de la plataforma a formato mobile
+                                            añadiendo la modalidad de pago fraccionado para aquellas cuentas que comparten gastos con usuarios independientes
+                                    </p>   
                                     <p id="tools-type-netflix">Sketch | InVision | Atomic design | Wireframing</p>
                                 </div>
                             </a> 
     
                         </div>
-                       <p id="boxtext-netflix">Adaptación del modo de pago de la plataforma a formato mobile
-                                añadiendo la modalidad de pago fraccionado para aquellas cuentas que comparten gastos con usuarios independientes
-                        </p>      
+                       
                 </article>  
     
             </div>
 
             <a class="button-vermas" href="https://medium.com/@itziarmozochica" target="_blank">
-                 <p class="text-vermas"> Ver más</p>
+                 <p class="text-vermas"> VER MÁS</p>
                  <div class="line-vermas"> </div>
                       
             </a>
@@ -202,7 +201,6 @@
 
             <div class="container-behance">
                      <h4 id="titulo-h4-behance">Art direction & Graphic projects </h4>
-                     <div class="line3"></div>
             </div>
     
             <div class="container-behance2">
@@ -235,19 +233,18 @@
     
             <a class="button-behance" href="https://www.behance.net/gallery/63164441/Ontari-Hotel-Packaging-Project" target="_blank">
                 <div class="bottom-behance">
-                     <p class= text-behance> Ver Behance</p>
-                     <div class="line-behance"> </div>
+                     <p class= text-behance> VER MÁS</p>
+                     <div class="line-behance" id="ponmecara"> </div>
                 </div>
-            </a>
+            </a >
             
         </section>
     
-        <section id="ponmecara">
-            <div class="about">
+        <section>
+            <div class="about" >
                 <div class="text-about">
                     <div class="block-titulo">
                         <h4 id="titulo-h4"> Ponme Cara</h4>
-                        <div class="line4"></div>
                     </div>
                     <p id="about-p">Publicista de profesión, me especialicé en la dirección de arte y el diseño gráfico. Mi
                         reciente
@@ -257,7 +254,7 @@
     
                     <a href="mailto:itziarmozo@gmail.com">
                         <div class="contact-button-down">
-                            <p class="texto-p"> Contactar</p>
+                            <p class="texto-p"> CONTACTAR</p>
                         </div>
                     </a>
     

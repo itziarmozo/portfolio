@@ -1,0 +1,632 @@
+@media only screen and (min-width:2000px){
+
+    .bloque-presentacion.aos-init.aos-animate{
+       padding: 350px 5px 50px;
+    }
+    
+    .menu{
+       width: 20%;
+    }
+    
+    .menu li {
+       font-size: 18px;
+    
+    }
+    
+    .bloque-presentacion{
+       width: 50%;
+       margin:0 auto;
+    }
+    
+    h1{
+       font-size: 107px
+    }
+    
+    .tag{
+       font-size: 20px;
+    }
+    
+    h2{
+     font-size: 70px;
+    }
+    
+    .line-h1{
+       width: 1000px;
+       height: 15px;
+       bottom: 10px;
+       border-radius: 15px;
+    }
+    
+    .intro{
+       font-size: 20px;
+       width: 50%;
+       line-height: 30px;
+    }
+    
+    .contact-button{
+       width: 13%;
+       margin-bottom: 420px
+    }
+    
+    .texto-p{
+       font-size: 24px;
+    
+    }
+    
+    .navegación-redes{
+       right: 10%;
+       top: 350px;
+    }
+    
+    .line{
+       height: 898px;
+    }
+    
+    .icon{
+       width: 53%;
+    }
+    
+    .bottom-circle{
+       width: 42px;
+       height: 42px;
+    }
+    
+    .redes{
+       height: 220px;
+    }
+    
+    
+    /* Metodología*/
+    
+    .metho-container {
+       padding: 30px 460px;
+       
+    }
+    
+    .container{
+       padding: 30px 40px;
+       width: 100%
+    }
+    
+    .icon2{
+       width: 7%;
+       margin: 1%,0%;
+       padding-bottom: 10px;
+    }
+    
+    .texto-h4{
+       font-size: 18px;
+    }
+    
+    h4{
+       font-size: 27px;
+    }
+    
+    
+    
+    /*Portfolio*/
+    
+    .container-portfolio{
+       padding: 200px 500px;
+    }
+    
+    #boxtext-pml{
+       right: 1100px;
+       bottom: 240px;
+       width: 30%;
+    }
+    
+    #tools-type{
+       margin-top: 25%
+    }
+    
+    #boxtext-blonet{
+    width: 70%
+    
+    
+    
+    }
+    
+    #titulo-type-blonet{
+       width: 70%;
+    }
+    
+    #tools-type-blonet{
+       margin-top: 3%;
+       margin-right: 15px;
+    
+    }
+    
+    #img-blonet{
+       width: 60%
+    }
+    
+    #boxtext-netflix{
+       right: 1105px;
+       bottom: 520px;
+       width: 30%
+    } 
+    
+    #tools-type-netflix{
+       margin-top:29%;
+    }
+    
+    
+    
+    /*Behance*/
+    
+    .container-behance{
+       padding: 0px 500px;
+       margin-top: 200px;
+    }
+    
+    .container-behance2{
+       padding: 80px 500px 200px;
+    }
+    
+    
+    .button-behance{
+       padding: 0px 400px 150px;
+    }
+    
+    
+    .about{
+       padding: 200px 500px;
+    }
+    
+    #about-p{
+       font-size: 20px;
+       width: 50%;
+       line-height: 30px;
+    }
+    
+    
+    .contact-button-down{
+    width: 23%
+    }
+    
+ }
+
+
+@media only screen and (min-width: 320px) and (max-width: 410px){
+        
+
+   .nav_cabecera{
+       width: 50%;
+       padding-left: 35px;
+   }
+      
+   .bloque-presentacion{
+       width: 90%;
+   }
+
+
+    h1{
+       margin-bottom: 10px;
+       font-size: 30px;
+    }
+
+    .line-h1{
+       bottom:10px;
+       width: 310px;
+    }
+
+    h2{
+       font-size: 22px;
+    }
+
+    .menu{
+       flex-direction: column;
+       align-items: flex-end;
+       justify-content: space-between;
+       margin-right: 15px;
+    }
+
+    .menu li{
+       height: 25px;;
+       display: flex;
+       justify-content: space-between;
+   
+    }
+
+    .box{
+       width: 100%;
+   
+    }
+
+    .navegación-redes {
+       left: ;
+    }
+
+
+    .contact-button{
+       width: 15%;
+   }
+    /* Portfolio*/
+
+
+    #text-blonet{
+       align-items: flex-start;
+       width: 80%;
+    }
+
+    #boxtext-netflix{
+       right: 50px;
+       bottom: -180px;
+       width: 80%;
+       
+    }
+
+
+    /*Behance*/
+    
+    .line3{
+       right: 60px;
+       border-radius: 6px; 
+       height: 12px;
+     }
+
+    .line4{
+       left: -10px;
+       border-radius: 6px;
+     }
+
+     /* Footer*/
+
+     .top-button {
+       transition: all .25s ease-in-out;
+       padding: 0px;
+       position: fixed;
+       bottom: 10px;
+       right: -6px;
+       cursor: pointer;  
+       z-index: 2;
+    }
+
+    .top-button img {
+       left: 500px;
+     }
+}
+
+@media only screen and (min-width:410px) and (max-width: 480px){
+
+/* Cabecera*/
+
+   .nav_cabecera{
+    padding-left:45px;
+   }
+
+   .logotipo{
+       width: 40%;
+   }
+
+   .menu{
+       width: 60%;
+   }
+
+/*BloquePresentación + Redes sociales*/
+
+   .bloque-presentacion{
+       width: 90%;
+   }
+    
+   h1{
+       font-size: 35px;
+   }
+
+   .line-h1{
+       width: 300px;   
+   }
+   
+   h2{
+       font-size: 20px; 
+   }
+   
+   .intro{
+       width: 90%;
+   }
+
+   .contact-button{
+       width: 35%;
+   }
+
+   .navegación-redes {
+       right: 10%;
+       bottom: -120px;
+       padding:0px;
+       
+   }
+
+   .line {
+       height: 300px;
+   }
+  
+
+/* Metodologia*/
+
+   .metho-container {
+       width: 100%;
+       height: 200px;
+       background: #2D2D2D;
+       margin-right: 5px;
+       display: flex;
+       flex-direction: column;
+       padding: 40px 0px 50px 30px;
+   
+    }    
+
+    .container{
+       width: 88%;  
+       display: flex;
+       flex-direction: row;
+       justify-content: space-between;
+    }
+   
+    h4{
+       color: white;
+       font-size: 19px;
+       padding: 6px;
+       width: 100%
+    }
+   
+    .icon2{
+       width: 10%;
+    }
+
+    #Lean-h4{
+       width: 88%;
+       padding: 7px 0px 0px 0px;
+    }
+
+    .texto-h4{
+       color: white;
+       line-height: 24px;
+       padding-top: 24px;
+       font-weight: 100;
+       display: none;
+       visibility: hidden
+   }
+
+   
+
+   /* Portfolio*/
+
+    .container-portfolio{
+       width: 100%;
+       padding: 0px;
+       margin-top: 50px; 
+    } 
+
+    #link-pml{
+       display: flex;
+       flex-direction: column;
+       justify-content: space-between;  
+    }
+
+    #img-pml{
+       width: 100%; 
+       border-radius: 4px; 
+       right: 50px;
+    }
+
+    #text-pml{
+       width: 88%; 
+       padding-left: 10px;
+    }
+
+    #tag-type{
+       color: #9A028A;
+       font-size: 12px;
+       margin-bottom:8px;
+       padding-top: -10px;
+       margin-top: 30px;
+       padding-left: 20px;
+    }
+       
+    #titulo-type{
+       font-size: 24px;
+       margin-bottom:8px;
+       padding-left: 20px;    
+    }
+   
+   
+   #tools-type{
+       padding-left: 20px;
+       font-weight: 100;
+       font-size: 14px;
+       margin-top: 0%;
+    }
+
+    #boxtext-pml{
+       padding: 18px 18px;
+       right: 50px;
+       bottom: -140px;
+       width: 80%;
+    } 
+
+    .work-blonet{
+       margin-top: 270px;
+    }
+
+    #img-blonet{
+       width: 100%;
+    }
+
+    #link-blonet{
+       flex-direction: column;
+       width: 100%;
+    }
+
+    #tag-type-blonet{
+       margin-top: 30px;
+       padding-left: 30px;
+    }
+
+    #text-blonet{
+       align-items: flex-start;
+       width: 70%;
+    }
+
+    #titulo-type-blonet{
+       padding-left: 30px;
+       text-align: start;
+       padding-right: 0px;
+       width: 85%;
+       line-height: 35px;
+    }
+
+    #boxtext-blonet{
+       margin: 18px 24px;
+       text-align: left;
+       width: 100%; 
+    }
+
+    #gif-blonet{
+       width: 25%;
+       border-radius: 15px;
+       position: absolute;
+       right: 40px;
+       bottom: 300px;
+    }
+
+    #tools-type-blonet{
+       margin-right: 0px;
+       margin-left: 25px;
+       margin-top: 0px;
+    }
+
+   #text-netflix{
+       width: 100%;
+       margin-top: 5%;
+       padding-left: 15px;  
+    }
+
+    #tools-type-netflix{
+        margin-top: 0px;
+        padding-left: 18px;  
+    }
+   
+    #boxtext-netflix{
+       right: 50px;
+       bottom: -160px;
+       width: 80%;
+    }
+
+    .button-vermas{
+        margin-top: 200px;
+   }
+      
+
+
+   /*Behance*/
+
+    .container-behance{
+       padding: 100px 30px 0px;
+    }
+   
+    #titulo-h4-behance{
+       width: 90%;
+       padding-left: 10px;
+    }
+
+    .line3{
+       background-color: #F5E56C;
+       width: 290px;
+       height: 12px;
+       border-radius: 4px;  
+       z-index: -1;
+       bottom: 6px;
+       right: 100px;
+    }
+
+    .container-behance2{
+       padding: 60px 20px 60px 50px;
+       display: flex;
+       flex-direction: column;
+       justify-content: space-between; 
+    }
+
+    .work-behance1{
+       width: 80%;
+       margin-bottom: 20px;
+    }
+
+    .work-behance2{
+       width: 80%;
+       margin-bottom: 20px;
+    }
+
+    .work-behance3{
+       width: 80%; 
+    }
+
+   .button-behance{
+       padding: 0px 70px 0px 0px; 
+   }
+
+
+   /*PonmeCara*/
+
+   .about{
+       width: 85%;
+       padding: 100px 30px;
+       display: flex;
+       flex-direction: column;
+       justify-content: space-between; 
+    }
+           
+    .text-about{
+       width: 110%;
+       display: flex;
+       flex-direction: column;
+       padding-left:5px;
+    }
+
+    .line4{
+       background-color: #F5E56C;
+       width: 300px;
+       height: 12px;
+       border-radius: 4px;   
+       bottom: 5px;
+       left:-10px;
+       z-index:-1;
+    }
+   
+   #about-p{
+     margin-bottom: 10px;
+
+    }
+
+   .
+
+    /*Footer*/
+
+   .images{
+     display: flex;
+     flex-direction: column;
+     width: 80vw;
+     padding: 30px;
+     margin-bottom: 100px;
+    }
+       
+   .itziar-image{
+     object-position: 100% 26%;
+     width: 280px;
+     height: 180px;
+     object-fit: cover;
+    }
+
+   .container-footer{
+     background: #2D2D2D;
+     padding: 30px;
+     width: 100%
+    }
+
+   .top-button{
+      
+   position: fixed;
+   bottom: 10px;
+   right:50px;
+   }
+
+}
